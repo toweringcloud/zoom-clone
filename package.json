@@ -1,17 +1,12 @@
 {
 	"name": "noom-challenge",
 	"version": "1.0.0",
-	"description": "Zoom Clone using NodeJS, WebRTC and WebSockets",
+	"author": "toweringcloud",
+	"description": "nomadcoders vanillajs zoom clone challenge",
+	"homepage": "https://nomadcoders.co/noom",
 	"license": "MIT",
 	"scripts": {
 		"dev": "nodemon"
-	},
-	"devDependencies": {
-		"@babel/cli": "^7.22.15",
-		"@babel/core": "^7.22.20",
-		"@babel/node": "^7.22.19",
-		"@babel/preset-env": "^7.22.20",
-		"nodemon": "^3.0.1"
 	},
 	"dependencies": {
 		"@socket.io/admin-ui": "^0.5.1",
@@ -19,5 +14,12 @@
 		"pug": "^3.0.2",
 		"socket.io": "^4.7.2",
 		"ws": "^8.14.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.22.15",
+		"@babel/core": "^7.22.20",
+		"@babel/node": "^7.22.19",
+		"@babel/preset-env": "^7.22.20",
+		"nodemon": "^3.0.1"
 	}
 }
