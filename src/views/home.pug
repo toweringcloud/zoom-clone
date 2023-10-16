@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Noom
+        link(rel="stylesheet", href="/public/css/mvp.css")
+    body
+        header
+            h1 Noom - video call
+        main
+            div#lobby
+                form
+                    input(type="text", placeholder="input room name!", required)
+                    button Enter Room
+            div#room
+                h3
+                ul
+                div#call
+                    div#myStream
+                        video#myFace(autoplay, playsinline, witdh="400" height="400")
+                        | 
+                        video#peerFace(autoplay, playsinline, witdh="400" height="400")
+                        br
+                        button#mute Mute
+                        | 
+                        button#camera Trun Camera Off
+                        select#cameras
+                form#chat
+                    input(type="text", placeholder="input chat message!", required)
+                    button Send
+        script(src="/socket.io/socket.io.js")
+        script(src="/public/js/app.js")
