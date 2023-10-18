@@ -2,6 +2,6 @@
 
 video & audio chat application using socket.io &amp; webrtc
 
--   video chat (1:1) with screen toggle
--   audio chat (1:1) with mute toggle
--   text chat (1:1) with data stream
+-   1:1 video chat with screen toggle
+-   1:1 audio chat with mute toggle
+-   1:1 text chat using data stream
