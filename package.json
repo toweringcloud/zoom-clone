@@ -1,10 +1,21 @@
 {
 	"name": "zoom-clone",
-	"version": "1.0.0",
-	"author": "toweringcloud",
-	"description": "nomadcoders vanillajs zoom clone challenge",
-	"homepage": "https://nomadcoders.co/noom",
+	"version": "0.1.0",
+	"description": "video & audio chat application using socket.io & webrtc",
 	"license": "MIT",
+	"author": "toweringcloud",
+	"homepage": "https://github.com/toweringcloud/zoom-clone",
+	"inspiredby": "https://nomadcoders.co/noom",
+	"keywords": [
+		"webrtc",
+		"socketio",
+		"pug",
+		"zoom",
+		"video",
+		"audio",
+		"chat"
+	],
+	"type": "module",
 	"scripts": {
 		"dev": "nodemon"
 	},
