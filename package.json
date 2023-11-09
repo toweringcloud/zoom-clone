@@ -4,7 +4,7 @@
 	"description": "video & audio chat application using socket.io & webrtc",
 	"license": "MIT",
 	"author": "toweringcloud",
-	"homepage": "https://github.com/toweringcloud/zoom-clone",
+	"homepage": "https://toweringcloud.github.io/zoom-clone",
 	"inspiredby": "https://nomadcoders.co/noom",
 	"keywords": [
 		"webrtc",
