@@ -1,6 +1,6 @@
 # zoom-clone
 
-## video, audio and text chat using webrtc, socketio and pug
+## video + audio + text chat using webrtc and socketio
 
 -   1:1 video chat with screen toggle
 -   1:1 audio chat with mute toggle
